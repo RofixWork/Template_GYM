@@ -1,0 +1,36 @@
+//@extend
+%bg-hero{
+    position: absolute;
+    top: 50%; left: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+%icon-prop{
+    background-color: $thirtColor;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    font-size: 40px;
+    display: block;
+}
+%btn{
+    border-color: $primaryColor;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 0 !important;
+    font-size: 17px;
+    &:hover{
+        background-color: $primaryColor;
+    }  
+}
+//header-section
+.header-section{
+    span{
+        color: $primaryColor;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 24px;
+    }
+}

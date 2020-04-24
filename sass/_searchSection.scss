@@ -1,0 +1,29 @@
+//search section
+.search{
+    position: fixed;
+    background-color: rgba(0,0,0,.9);
+    top: 0; left: 0; height: 100%; width: 100%;
+    z-index: 9999;
+    opacity: 0; visibility: hidden;
+    transition: opacity .4s, visibility .4s;
+    .close{
+        color: white;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        font-size: 40px;
+        cursor: pointer;
+    }
+    .s-form{
+        @extend %bg-hero;
+        width: 70%;
+        form{
+            .form-control{
+                width: 100%;
+            }
+        }
+    }
+}
+.open{
+    opacity: 1; visibility: visible;
+}
